@@ -1,0 +1,9 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-bg text-ink font-sans}
+.card{@apply bg-white border border-line rounded-md shadow-sm}
+.btn{@apply inline-flex items-center gap-2 px-3 py-2 rounded text-sm font-medium bg-navy text-white hover:bg-blue2 disabled:opacity-50}
+.btn-o{@apply inline-flex items-center gap-2 px-3 py-2 rounded text-sm font-medium border border-line bg-white hover:bg-bg}
+.inp{@apply border border-line rounded px-3 py-2 text-sm bg-white w-full}
+.th{@apply text-left text-xs font-semibold text-mute uppercase px-3 py-2 bg-bg border-b border-line}
+.td{@apply px-3 py-2 text-sm border-b border-line}
+@media print{aside,header,.noprint{display:none!important}main{padding:0!important}}
